@@ -1,0 +1,71 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+padding: 16px;
+background-color: white;
+width: 50%;
+margin: 0 auto;
+}
+
+/* Full-width input fields */
+.form-field {
+width: 100%;
+padding: 15px;
+margin: 5px 0 22px 0;
+display: inline-block;
+border: none;
+background: #f1f1f1;
+}
+
+.form-field:focus {
+background-color: #ddd;
+outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+border: 1px solid #f1f1f1;
+margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.submit-btn {
+background-color: #04AA6D;
+color: white;
+padding: 16px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 100%;
+opacity: 0.9;
+}
+
+.submit-btn:hover {
+opacity: 1;
+}
+
+/* change background colour of field to red when there is an error */
+.field-error {
+    background: #ff000026;
+}
+
+#messageDiv{
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+.login-message{
+    text-align: center;
+}
+
+.logout-btn{
+    background: #ca3636!important;
+}
